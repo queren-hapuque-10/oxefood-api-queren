@@ -19,7 +19,7 @@ import br.com.ifpe.oxefood.util.entity.GenericController;
 public class EntregadorController extends GenericController {
 
    @Autowired
-   private EntregadorService clienteService;
+   private EntregadorService entregadorService;
 
    @PostMapping
    public ResponseEntity<Entregador> save(@RequestBody @Valid EntregadorRequest request) {
