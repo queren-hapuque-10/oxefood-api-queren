@@ -56,6 +56,7 @@ public class EntregadorRequest {
                 .nome(nome)
                 .cpf(cpf)
                 .rg(rg)
+                .dataNascimento(dataNascimento)
                 .foneCelular(foneCelular)
                 .foneFixo(foneFixo)
                 .qtdEntregasRealizadas(qtdEntregasRealizadas)
