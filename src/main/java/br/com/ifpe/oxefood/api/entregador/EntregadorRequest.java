@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 
 public class EntregadorRequest {
-
+    
     private String nome;
  
     private String cpf;
