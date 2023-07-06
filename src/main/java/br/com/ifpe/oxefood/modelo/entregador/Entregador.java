@@ -24,53 +24,55 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Entregador extends EntidadeAuditavel  {
+  
+    private static final long serialVersionUID = -8037757879981787501L;
 
-   @Column
-   private String nome;
+    @Column
+    private String nome;
 
-   @Column
-   private String cpf;
+    @Column
+    private String cpf;
 
-   @Column
-   private String rg;
+    @Column
+    private String rg;
 
-   @Column
-   private LocalDate dataNascimento;
+    @Column
+    private LocalDate dataNascimento;
 
-   @Column
-   private String foneCelular;
+    @Column
+    private String foneCelular;
 
-   @Column
-   private String foneFixo;
+    @Column
+    private String foneFixo;
 
-   @Column
-   private Integer qtdEntregasRealizadas;
+    @Column
+    private Integer qtdEntregasRealizadas;
 
-   @Column
-   private Double valorFrete;
+    @Column
+    private Double valorFrete;
 
-   @Column
-   private String enderecoRua;
+    @Column
+    private String enderecoRua;
 
-   @Column
-   private String enderecoNumero;
+    @Column
+    private String enderecoNumero;
 
-   @Column
-   private String enderecoBairro;
+    @Column
+    private String enderecoBairro;
 
-   @Column
-   private String enderecoCidade;
+    @Column
+    private String enderecoCidade;
 
-   @Column
-   private String enderecoCep;
+    @Column
+    private String enderecoCep;
 
-   @Column
-   private String enderecoUf;
+    @Column
+    private String enderecoUf;
 
-   @Column
-   private String enderecoComplemento;
+    @Column
+    private String enderecoComplemento;
 
-   @Column
-   private Boolean ativo;
+    @Column
+    private Boolean ativo;
 
 }
